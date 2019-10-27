@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.slider__text p:first-child {
+  color: #fcf9f7;
+  font-family: "Baskerville";
+  font-size: 72px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Baskerville - Regular";
+  letter-spacing: 1.8px; }
+
+.slider__text p {
+  margin-top: 20px;
+  color: #d7794a;
+  font-family: "Athelas";
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px; }
+
+.root__menu_top a {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Myriad Pro";
+  color: #FCFCFC;
+  font-size: 20px;
+  font-weight: 400; }
+
+.head__logo {
+  margin-left: 63px;
+  font-family: "Myriad Pro";
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.63px;
+  text-decoration: none;
+  color: #d7794a; }
+
+.team__title {
+  color: #a95e39;
+  font-family: "Athelas";
+  font-size: 61px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.8px; }
+
+.team__description {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.9px; }
+
+.item__title {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 31px;
+  letter-spacing: 0.9px;
+  line-height: 25.46px;
+  font-weight: 400; }
+
+.item__desc {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.6px; }
+
+.counter__digits {
+  color: #995437;
+  font-family: "Vani";
+  font-size: 77px;
+  line-height: 38.37px;
+  font-weight: 700;
+  letter-spacing: 1.5px; }
+
+.counter__text {
+  color: #ffffff;
+  font-family: "Myriad Pro";
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.wrap {
+  flex: 1 0 auto; }
+
+footer {
+  flex: 0 0 auto; }
+
+header {
+  min-height: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.content {
+  max-width: 1542px;
+  width: 100%;
+  margin: 0 auto; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+.root__menu_top {
+  position: absolute;
+  height: 77px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(178, 178, 178, 0.747);
+  z-index: 2; }
+
+.root__menu_top div:first-child {
+  margin-left: 84px; }
+
+.root__menu_top div:hover {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: #626364; }
+
+.root__menu_top div:first-child a {
+  color: black; }
+
+.slider__item_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/5427546353412402.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.slider__text {
+  margin-bottom: 80px;
+  margin-right: 80px; }
+
+.root__team {
+  margin-top: 900px;
+  width: 100%; }
+
+.content_team {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.team__decoration_line {
+  margin-top: 30px;
+  background-color: #a95e39;
+  width: 500px;
+  height: 2px; }
+
+.team__description {
+  margin-top: 70px;
+  height: 104px;
+  width: 1137px; }
+
+.team__items-block {
+  margin: 130px 80px 0 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.team__item {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+  width: 1540; }
+
+.item__img img {
+  height: 550px;
+  width: 400px;
+  margin-bottom: 80px; }
+
+.item__title {
+  margin-bottom: 80px; }
+
+.root__counter {
+  margin-top: 40px;
+  height: 400px;
+  width: 100%;
+  background-color: #1b2b32;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.counter__item {
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+
+.content {
+  margin: 0 80px 0 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between; }
+
+.counter__digits {
+  margin-bottom: 40px; }
+
+/*# sourceMappingURL=style.css.map */
